@@ -1,0 +1,75 @@
+  <!DOCTYPE HTML>
+<html>
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+       <title>清泽心雨-报名入口</title>
+       <style type="text/css">
+       a{display:inline-block;}
+       body{line-height:3em;
+       color:pink;
+       }
+       span{font-weight:bold;}
+       div{
+           width:200px
+           margin:20px auto
+           }
+           table{
+               margin:0 auto;
+           }
+           table td{height:500px;}
+           .txtCenter{
+               text-align:center;
+               font-size:20px;
+               color:blue;
+           }
+       </style>
+   </head>
+   <body>                   
+        <div class="txtCenter">
+            <h1>欢迎加入清泽心雨</h1>
+        </div>
+      <form action="save.php" method="post" >
+            <table>
+                <tbody>
+                    <tr><td class="wrap">
+    
+            <div class="1">
+            <label><span>姓名：</span>
+            <input type="text" name="name" value=""></label>
+            <label><span>专业：</span>
+       <input type="text" name="professional" value=""></label>
+       </div>
+       <div class="2">
+       <label><span>电话：</span>
+       <input type="tel" name="telephone" value=""></label>
+       <label><span>邮箱：</span>
+       <input type="e-mail" name="e-mail" value=""></label>
+       </div>
+       <div class="3">
+       <label><span>性别:</span></label>
+        <label><span>男</span>
+        <input type="radio" value="1"  name="gender" /></label>
+        <label><span>女</span>
+        <input type="radio" value="2"  name="gender" /></label>
+        <label><span>志愿部门:</span></label>
+    <select>
+      <option value="蓝之青">网络安全部（蓝之青）</option>
+      <option value="UED">UED</option>
+      <option value="卡乐坊">视觉设计部（卡乐坊）</option>
+      <option value="综合办公室">综合办公室</option>
+      <option value="公关策划部">公关策划部</option>
+      <option value="综合媒体集团">综合媒体集团</option>
+      <option value="新闻集团">新闻集团</option>
+      <label><option value="视频集团">视频集团</option></label>
+    </select>
+    </div>
+    <label><span>填报理由：</span>
+    <textarea cols="42" rows="10">输入内容......</textarea></label>
+    <div class="txtCenter">
+    <input type="submit" value="提交" name="submitBtn"/>
+    </div>
+    </td></tr>
+    </tbody>
+    </table>
+          </form>
+</html>
